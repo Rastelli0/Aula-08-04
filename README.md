@@ -5,12 +5,19 @@
 int tela(){
  int opcao;
     system("cls");
+    
     printf("\n--------------Menu------------\n");
+    
     printf("\n1-opcao\n");
+    
     printf("\n2-sair\n");
+    
     printf("\n------------------------------\n");
+    
      printf("Digite sua opcao:");
+     
     scanf("%d", &opcao);
+    
    return opcao;
 }
 
@@ -19,6 +26,7 @@ int tela(){
 
 
 int main(){
+
 int opcao;
 
 opcao  = tela();
